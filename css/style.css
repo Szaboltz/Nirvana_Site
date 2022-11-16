@@ -1,0 +1,192 @@
+* { /* tag para o site todo */ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear {
+    clear: both;
+}
+body {
+    background-color: black;
+}
+#Nirvana {
+    max-width: 170px;
+    height: 90px;
+}
+/*
+    Classes do site
+*/
+.header {
+    padding: 8px 0;
+    height: 90px;
+}
+.logo {
+    float: left;
+}
+nav.menu-desktop {
+    float: right;
+}
+nav.menu-desktop ul {
+    position: relative;
+    top: 32px;
+}
+nav.menu-desktop li {
+    padding: 0 10px;
+    font-weight: lighter;
+    display: inline-block;
+}
+nav.menu-desktop a {
+    text-decoration: none;
+    color: #e8b828;
+}
+nav.menu-desktop li.selected {
+    font-weight: bold;
+}
+nav.menu-desktop a:hover {
+    text-decoration: underline;
+}
+.logo img {
+    font-weight: normal;
+    font-size: 23px;
+    height: 60px;
+}
+.main-bg {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 150px 0px;
+    background: url('../img/Nirvana\ 92s.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.main-bg h2 {
+    color: #e8b828;
+    font-size: 30px;
+    font-weight: normal;
+}
+.main-bg p {
+    text-align: left;
+    color:yellow;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.overlay {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    left: 0;
+    top: 0;
+
+}
+.main-bg > .container {
+    position: relative;
+    z-index: 2;
+
+}
+.button {
+    width: 200px;
+    text-align: center;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 50px;
+}
+.button1 {
+    background-color: #e8b828;
+    border: 2px solid black;
+    color:black;
+}
+.button1:hover {
+    background-color:black;
+    color:#e8b828;
+    font-weight: 700;
+    border: 2px solid #e8b828;
+}
+.diferenciais {
+    padding: 30px 0;
+    text-align: center;
+}
+.line-text {
+    position: relative;
+    display: inline-block;
+}
+.line-text div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 3px;
+    background-color: #e8b828;
+}
+.line-text h2 {
+    color: #e8b828;
+    font-weight: normal;
+    font-size: 35px;
+}
+.icones-diferenciais {
+    margin-top: 35px;
+}
+.box-icone-single {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+.box-icone-single span {
+    color: #e8b828;
+    font-size: 40px;
+}
+.box-icone-single p {
+    color: #e8b828;
+    font-weight: lighter;
+    font-size: 16px;
+}
+/* Footer */ 
+.w33 {
+    float: left;
+    width: 33.3%;
+
+}
+.footer1 {
+    background: #101010;
+    padding: 20px 0;
+    color: #e8b828;
+}
+.footer1 p {
+    color: #e8b828;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.footer1 h2 {
+    font-weight: normal;
+    font-size: 23px;
+}
+.footer1 a {
+    display: block;
+    color: #e8b828;
+    margin-top: 10px;
+}
+.group-icons a {
+    display: inline-block;
+    margin: 15px 10px;
+}
+.footer2 {
+    padding: 15px 0;
+    background: #080808;
+    color: #e8b828;
+    text-align: center;
+}
